@@ -1,5 +1,6 @@
 package com.company;
 
+//自定义
 public interface Stack<E> {
 
     int getSize();
