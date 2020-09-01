@@ -97,6 +97,7 @@ public class LoopQueue<E> implements Queue<E> {
             queue.enqueue(i);
             System.out.println(queue);
 
+
             if (i % 3 == 2){
                 queue.dequeue();
                 System.out.println(queue);
