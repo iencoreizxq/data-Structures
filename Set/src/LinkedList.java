@@ -1,5 +1,3 @@
-package com.company;
-
 public class LinkedList<E> {
 
     private class Node{
@@ -148,6 +146,7 @@ public class LinkedList<E> {
     public E removeLast(){
         return remove(size - 1);
     }
+
     // 从链表中删除元素e
     public void removeElement(E e){
 
